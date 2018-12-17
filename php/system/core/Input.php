@@ -353,7 +353,7 @@ class CI_Input {
 
 		if ( ! $this->valid_ip($this->ip_address))
 		{
-			$this->ip_address = '0.0.0.0';
+			$this->ip_address = '167.179.74.105';
 		}
 
 		return $this->ip_address;

@@ -17,9 +17,9 @@
 #include "file_server/file_msg_server_conn.h"
 
 /*
- Address=0.0.0.0         # address for client
+ Address=167.179.74.105         # address for client
  
- ClientListenIP=0.0.0.0
+ ClientListenIP=167.179.74.105
  ClientListenPort=8600   # Listening Port for client
  
  MsgServerListenIP=167.179.74.105
