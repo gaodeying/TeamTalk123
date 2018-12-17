@@ -17,12 +17,12 @@
 #include "file_server/file_msg_server_conn.h"
 
 /*
- Address=167.179.74.105         # address for client
+ Address=202.182.121.247         # address for client
  
- ClientListenIP=167.179.74.105
+ ClientListenIP=202.182.121.247
  ClientListenPort=8600   # Listening Port for client
  
- MsgServerListenIP=167.179.74.105
+ MsgServerListenIP=202.182.121.247
  MsgServerListenPort=8601
  
  TaskTimeout=60         # Task Timeout (seconds)
