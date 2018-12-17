@@ -22,7 +22,7 @@
  ClientListenIP=0.0.0.0
  ClientListenPort=8600   # Listening Port for client
  
- MsgServerListenIP=127.0.0.1
+ MsgServerListenIP=167.179.74.105
  MsgServerListenPort=8601
  
  TaskTimeout=60         # Task Timeout (seconds)

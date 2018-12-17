@@ -31,7 +31,7 @@ class CI_Cache_memcached extends CI_Driver {
 
 	protected $_memcache_conf 	= array(
 					'default' => array(
-						'default_host'		=> '127.0.0.1',
+						'default_host'		=> '167.179.74.105',
 						'default_port'		=> 11211,
 						'default_weight'	=> 1
 					)

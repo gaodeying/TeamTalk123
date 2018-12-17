@@ -25,7 +25,7 @@ public:
 	{
 		m_wake_sock_recv = S_CreateSocket(AF_INET, SOCK_DGRAM, 0);
 		m_wake_sock_send = S_CreateSocket(AF_INET, SOCK_DGRAM, 0);
-        S_Bind(m_wake_sock_recv, "127.0.0.1", 0);
+        S_Bind(m_wake_sock_recv, "167.179.74.105", 0);
         S_GetSockName(m_wake_sock_recv, m_szRecvIP, &m_nRecvPort);
 	}
 
