@@ -5,27 +5,26 @@
 
 # setup mysql
 
-MARIADB_SHARED=MariaDB-10.0.17-centos6-x86_64-shared
-MARIADB_SHARED_DOWNLOAD_PATH=http://sfo1.mirrors.digitalocean.com/mariadb/mariadb-10.0.17/yum/centos6-amd64/rpms/$MARIADB_SHARED.rpm
+MARIADB_SHARED=MariaDB-10.0.17-centos7-x86_64-shared
+MARIADB_SHARED_DOWNLOAD_PATH=http://ftp.hosteurope.de/mirror/archive.mariadb.org/mariadb-10.0.17/yum/centos7-amd64/rpms/MariaDB-10.0.17-centos7-x86_64-shared.rpm
 
-MARIADB_CLIENT=MariaDB-10.0.17-centos6-x86_64-client
-MARIADB_CLIENT_DOWNLOAD_PATH=http://sfo1.mirrors.digitalocean.com/mariadb/mariadb-10.0.17/yum/centos6-amd64/rpms/$MARIADB_CLIENT.rpm
+MARIADB_CLIENT=MariaDB-10.0.17-centos7-x86_64-client
+MARIADB_CLIENT_DOWNLOAD_PATH=http://ftp.hosteurope.de/mirror/archive.mariadb.org/mariadb-10.0.17/yum/centos7-amd64/rpms/MariaDB-10.0.17-centos7-x86_64-client.rpm
 
+MARIADB_SERVER=MariaDB-10.0.17-centos7-x86_64-server
+MARIADB_SERVER_DOWNLOAD_PATH=http://ftp.hosteurope.de/mirror/archive.mariadb.org/mariadb-10.0.17/yum/centos7-amd64/rpms/MariaDB-10.0.17-centos7-x86_64-server.rpm
 
-MARIADB_SERVER=MariaDB-10.0.17-centos6-x86_64-server
-MARIADB_SERVER_DOWNLOAD_PATH=http://sfo1.mirrors.digitalocean.com/mariadb/mariadb-10.0.17/yum/centos6-amd64/rpms/$MARIADB_SERVER.rpm
+MARIADB_COMMON=MariaDB-10.0.17-centos7-x86_64-common
+MARIADB_COMMON_DOWNLOAD_PATH=http://ftp.hosteurope.de/mirror/archive.mariadb.org/mariadb-10.0.17/yum/centos7-amd64/rpms/MariaDB-10.0.17-centos7-x86_64-common.rpm
 
-MARIADB_COMMON=MariaDB-10.0.17-centos6-x86_64-common
-MARIADB_COMMON_DOWNLOAD_PATH=http://sfo1.mirrors.digitalocean.com/mariadb/mariadb-10.0.17/yum/centos6-amd64/rpms/$MARIADB_COMMON.rpm
-
-MARIADB_COMPAT=MariaDB-10.0.17-centos6-x86_64-compat
-MARIADB_COMPAT_DOWNLOAD_PATH=http://sfo1.mirrors.digitalocean.com/mariadb/mariadb-10.0.17/yum/centos6-amd64/rpms/$MARIADB_COMPAT.rpm
+MARIADB_COMPAT=MariaDB-10.0.17-centos7-x86_64-compat
+MARIADB_COMPAT_DOWNLOAD_PATH=http://ftp.hosteurope.de/mirror/archive.mariadb.org/mariadb-10.0.17/yum/centos7-amd64/rpms/MariaDB-10.0.17-centos7-x86_64-compat.rpm
 
 IM_SQL=ttopen.sql
 MYSQL_CONF=my.cnf
 MYSQL_PASSWORD=12345
 
-CENTOS_VERSION=6
+CENTOS_VERSION=7
 
 print_hello(){
 	echo "==========================================="
