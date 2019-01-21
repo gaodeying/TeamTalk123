@@ -15,8 +15,8 @@
 |
 */
 $config['base_url']	= '';
-$config['msfs_url'] = 'http://msfs.teamtalk.im:8700/';
-$config['http_url'] = 'http://10.11.5.171:8400';
+$config['msfs_url'] = 'http://66.42.52.100:8700/';
+$config['http_url'] = 'http://66.42.52.100:8400';
 
 /*
 |--------------------------------------------------------------------------
