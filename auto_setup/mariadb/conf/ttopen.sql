@@ -554,5 +554,6 @@ CREATE TABLE `IMUser` (
   KEY `idx_domain` (`domain`),
   KEY `idx_name` (`name`),
   KEY `idx_phone` (`phone`)
+  
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
 
