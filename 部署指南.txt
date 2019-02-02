@@ -20,3 +20,20 @@ zip -q -r tt.zip tt
 cp tt.zip ./auto_setup/im_web/
 cd auto_setup
 chmod +x setup.sh
+#开始安装
+./setup.sh install
+
+#安装git 
+yum info git
+yum install curl-devel expat-devel gettext-devel openssl-devel zlib-devel
+yum install gcc perl-ExtUtils-MakeMaker
+#关闭防火墙
+systemctl stop firewalld.service #停止firewall
+systemctl disable firewalld.service #禁止firewall开机启动
+#关闭selinux
+gedit /etc/sysconfig/selinux
+vi /etc/selinux/config
+#netstat命令
+yum install net-tools
+#killall命令
+yum install psmisc

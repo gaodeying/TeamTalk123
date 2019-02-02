@@ -3,7 +3,7 @@
 # author: luoning
 # date: 09/02/2014
 
-# setup im server
+# setup im serverfffff
 
 INSTALL_DIR=.
 IM_SERVER=im-server-*
